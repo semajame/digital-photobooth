@@ -42,10 +42,15 @@ export default function Header() {
           >
             <ShieldCheck size={14} /> Privacy
           </Link>
-          <Link href="https://github.com/semajame" target="_blank">
+          <Link
+            href="https://github.com/semajame"
+            target="_blank"
+            aria-label="Github"
+          >
             <Button
               variant="ghost"
               size="icon"
+              aria-label="Github"
               className="rounded-full hover:bg-white/10 text-white"
             >
               <Github size={24} />
